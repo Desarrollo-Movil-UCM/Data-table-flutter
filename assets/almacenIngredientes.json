@@ -2,7 +2,7 @@
     {
       "id": 1,
       "nombre": "EstoEsSolo",
-      "grupo": "UnEjemplo",
+      "grupo": "UnEjemploDeJson",
       "unidadesDisponibles": 1000,
       "medicion": "gramos",
       "costoPorUnidad": 500
