@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "nombre": "EstoEsSolo",
+      "grupo": "UnEjemploDeJson",
+      "unidadesDisponibles": 1000,
+      "medicion": "gramos",
+      "costoPorUnidad": 500
+    },
+    {
+      "id": 2,
+      "nombre": "Azúcar",
+      "grupo": "Endulzantes",
+      "unidadesDisponibles": 800,
+      "medicion": "gramos",
+      "costoPorUnidad": 300
+    },
+    {
+      "id": 3,
+      "nombre": "Huevos",
+      "grupo": "Proteínas",
+      "unidadesDisponibles": 30,
+      "medicion": "unidades",
+      "costoPorUnidad": 800
+    },
+    {
+      "id": 4,
+      "nombre": "Leche",
+      "grupo": "Lácteos",
+      "unidadesDisponibles": 500,
+      "medicion": "mililitros",
+      "costoPorUnidad": 400
+    },
+    {
+      "id": 5,
+      "nombre": "Aceite",
+      "grupo": "Grasas",
+      "unidadesDisponibles": 300,
+      "medicion": "mililitros",
+      "costoPorUnidad": 600
+    },
+    {
+      "id": 6,
+      "nombre": "Sal",
+      "grupo": "Condimentos",
+      "unidadesDisponibles": 200,
+      "medicion": "gramos",
+      "costoPorUnidad": 200
+    },
+    {
+      "id": 7,
+      "nombre": "Tomate",
+      "grupo": "Vegetales",
+      "unidadesDisponibles": 150,
+      "medicion": "unidades",
+      "costoPorUnidad": 700
+    },
+    {
+      "id": 8,
+      "nombre": "Cebolla",
+      "grupo": "Vegetales",
+      "unidadesDisponibles": 120,
+      "medicion": "unidades",
+      "costoPorUnidad": 500
+    },
+    {
+      "id": 9,
+      "nombre": "Pollo",
+      "grupo": "Proteínas",
+      "unidadesDisponibles": 50,
+      "medicion": "gramos",
+      "costoPorUnidad": 1200
+    },
+    {
+      "id": 10,
+      "nombre": "Ajo",
+      "grupo": "Condimentos",
+      "unidadesDisponibles": 80,
+      "medicion": "gramos",
+      "costoPorUnidad": 300
+    }
+  ]
+  
