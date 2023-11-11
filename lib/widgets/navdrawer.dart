@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../pages/empleados/empleados_page.dart';
+import '../pages/despensa/despensa_page.dart';
 
 class NavDrawer extends StatelessWidget {
   const NavDrawer({super.key});
@@ -46,7 +47,8 @@ class NavDrawer extends StatelessWidget {
               title: const Text('Despensa'),
               onTap: () {
                 // Navegar a la página de empleados
-                Navigator.pop(context);
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => DespensaPage()));
               },
             ),
           ],
