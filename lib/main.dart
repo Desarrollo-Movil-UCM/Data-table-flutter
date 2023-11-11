@@ -13,41 +13,85 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Restaurant Pacheco y Compañia'),
-        ),
-        drawer: Drawer(
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: const <Widget>[
-              DrawerHeader(
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                ),
-                child: Text(
-                  'Dashboard',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 24,
-                  ),
-                ),
-              ),
-              ListTile(
-                leading: Icon(Icons.supervisor_account),
-                title: Text('Empleados'),
-              ),
-              ListTile(
-                leading: Icon(Icons.book),
-                title: Text('Menu'),
-              ),
-              ListTile(
-                leading: Icon(Icons.shopping_basket),
-                title: Text('Despensa'),
-              ),
-            ],
+          appBar: AppBar(
+            title: const Text('Restaurant Pacheco y Compañia'),
           ),
+          drawer: const NavDrawer(),
+          body: Center(
+              child: Container(
+            height: 300,
+            width: 300,
+            decoration: BoxDecoration(
+              color: Colors.blue[700],
+              borderRadius: BorderRadius.circular(30),
+            ),
+          ))),
+    );
+  }
+}
+
+class EmpleadosPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Empleados'),
+      ),
+      body: const DataTable2SimpleDemo(),
+    );
+  }
+}
+
+class NavDrawer extends StatelessWidget {
+  const NavDrawer({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: MediaQuery.of(context).size.width * 0.50,
+      child: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: <Widget>[
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.blue,
+              ),
+              child: Text(
+                'Dashboard',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 24,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: const Icon(Icons.supervisor_account),
+              title: const Text('Empleados'),
+              onTap: () {
+                // Navegar a la página de empleados
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => EmpleadosPage()));
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.book),
+              title: const Text('Menu'),
+              onTap: () {
+                // Navegar a la página de empleados
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.shopping_basket),
+              title: const Text('Despensa'),
+              onTap: () {
+                // Navegar a la página de empleados
+                Navigator.pop(context);
+              },
+            ),
+          ],
         ),
-        body: const DataTable2SimpleDemo(),
       ),
     );
   }

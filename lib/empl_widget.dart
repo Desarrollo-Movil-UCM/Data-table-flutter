@@ -39,9 +39,9 @@ class _DataTable2SimpleDemoState extends State<DataTable2SimpleDemo> {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: DataTable2(
-        columnSpacing: 12,
+        columnSpacing: 18,
         horizontalMargin: 12,
-        minWidth: 600,
+        minWidth: 900,
         columns: const [
           DataColumn2(label: Text('Nombre'), fixedWidth: 80),
           DataColumn2(label: Text('Apellido'), fixedWidth: 80),
@@ -51,18 +51,13 @@ class _DataTable2SimpleDemoState extends State<DataTable2SimpleDemo> {
           ),
           DataColumn2(label: Text('Rol'), fixedWidth: 80),
           DataColumn2(label: Text('Turno'), fixedWidth: 100),
-          DataColumn(
-            label: Text('Sueldo Base'),
-            numeric: true,
-          ),
+          DataColumn2(label: Text('Sueldo'), numeric: true, size: ColumnSize.S),
           DataColumn(
             label: Text('Bonos'),
             numeric: true,
           ),
           DataColumn2(label: Text('Departamento'), size: ColumnSize.L),
-          DataColumn(
-            label: Text('Experiencia'),
-          ),
+          DataColumn2(label: Text('Experiencia'), fixedWidth: 100),
         ],
         rows: List<DataRow>.generate(
           empleados.length,
