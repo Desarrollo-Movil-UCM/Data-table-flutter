@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:data_table_2/data_table_2.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
@@ -7,14 +5,14 @@ import 'package:flutter/services.dart';
 
 /// Example without a datasource
 
-class DataTable2SimpleDemo extends StatefulWidget {
-  const DataTable2SimpleDemo({Key? key}) : super(key: key);
+class EmpleadosTable extends StatefulWidget {
+  const EmpleadosTable({Key? key}) : super(key: key);
 
   @override
-  _DataTable2SimpleDemoState createState() => _DataTable2SimpleDemoState();
+  _EmpleadosTableState createState() => _EmpleadosTableState();
 }
 
-class _DataTable2SimpleDemoState extends State<DataTable2SimpleDemo> {
+class _EmpleadosTableState extends State<EmpleadosTable> {
   List<dynamic> empleados = []; // Lista para almacenar los empleados
 
   // Método para cargar y parsear el JSON desde assets
