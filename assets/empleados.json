@@ -1,0 +1,114 @@
+{
+    "empleados": [
+        {
+            "nombre": "Carlos",
+            "apellido": "González",
+            "numero_contacto": "1234567890",
+            "rol": "gerente",
+            "turno": "completo",
+            "sueldo_base": 30000,
+            "bonos": 5000,
+            "departamento": "Administración",
+            "experiencia": "10 años"
+        },
+        {
+            "nombre": "Ana",
+            "apellido": "Jiménez",
+            "numero_contacto": "0987654321",
+            "rol": "mesero",
+            "turno": "diurno",
+            "sueldo_base": 15000,
+            "bonos": 2000,
+            "departamento": "Servicio",
+            "experiencia": "3 años"
+        },
+        {
+            "nombre": "Luis",
+            "apellido": "Torres",
+            "numero_contacto": "6758493021",
+            "rol": "cajero",
+            "turno": "vespertino",
+            "sueldo_base": 17000,
+            "bonos": 2500,
+            "departamento": "Finanzas",
+            "experiencia": "5 años"
+        },
+        {
+            "nombre": "Marcela",
+            "apellido": "Lara",
+            "numero_contacto": "7543219876",
+            "rol": "cocinero",
+            "turno": "fin de semana",
+            "sueldo_base": 18000,
+            "bonos": 2800,
+            "departamento": "Cocina",
+            "experiencia": "4 años"
+        },
+        {
+            "nombre": "Javier",
+            "apellido": "Sánchez",
+            "numero_contacto": "4567890123",
+            "rol": "mesero",
+            "turno": "vespertino",
+            "sueldo_base": 16000,
+            "bonos": 2200,
+            "departamento": "Servicio",
+            "experiencia": "2 años"
+        },
+        {
+            "nombre": "Laura",
+            "apellido": "Hernández",
+            "numero_contacto": "9876543210",
+            "rol": "cocinero",
+            "turno": "diurno",
+            "sueldo_base": 17500,
+            "bonos": 2700,
+            "departamento": "Cocina",
+            "experiencia": "6 años"
+        },
+        {
+            "nombre": "Diego",
+            "apellido": "Martín",
+            "numero_contacto": "5678901234",
+            "rol": "cajero",
+            "turno": "fin de semana",
+            "sueldo_base": 16500,
+            "bonos": 2300,
+            "departamento": "Finanzas",
+            "experiencia": "3 años"
+        },
+        {
+            "nombre": "Valeria",
+            "apellido": "Gómez",
+            "numero_contacto": "8765432109",
+            "rol": "mesero",
+            "turno": "diurno",
+            "sueldo_base": 15500,
+            "bonos": 2100,
+            "departamento": "Servicio",
+            "experiencia": "1 año"
+        },
+        {
+            "nombre": "Ricardo",
+            "apellido": "Pérez",
+            "numero_contacto": "2345678901",
+            "rol": "cocinero",
+            "turno": "vespertino",
+            "sueldo_base": 17000,
+            "bonos": 2600,
+            "departamento": "Cocina",
+            "experiencia": "4 años"
+        },
+        {
+            "nombre": "Sofía",
+            "apellido": "Rodríguez",
+            "numero_contacto": "3210987654",
+            "rol": "mesero",
+            "turno": "fin de semana",
+            "sueldo_base": 16000,
+            "bonos": 2300,
+            "departamento": "Servicio",
+            "experiencia": "2 años"
+        }
+    ]
+}
