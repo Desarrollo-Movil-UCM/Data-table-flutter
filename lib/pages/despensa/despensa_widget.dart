@@ -15,10 +15,10 @@ class _DespensaTableState extends State<DespensaTable> {
 
   // Método para cargar y parsear el JSON desde assets
   Future<void> cargarDespensa() async {
-    final String jsonExample =
+    final String jsonData =
         await rootBundle.loadString('assets/listado_ingredientes.json');
 
-    final data = json.decode(jsonExample);
+    final data = json.decode(jsonData);
     setState(() {
       listado_alimentos = data['despensa'];
     });

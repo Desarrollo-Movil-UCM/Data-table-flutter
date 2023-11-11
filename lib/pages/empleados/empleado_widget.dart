@@ -17,10 +17,10 @@ class _EmpleadosTableState extends State<EmpleadosTable> {
 
   // Método para cargar y parsear el JSON desde assets
   Future<void> cargarEmpleados() async {
-    final String jsonExample =
+    final String jsonData =
         await rootBundle.loadString('assets/empleados.json');
 
-    final data = json.decode(jsonExample);
+    final data = json.decode(jsonData);
     setState(() {
       empleados = data['empleados'];
     });
