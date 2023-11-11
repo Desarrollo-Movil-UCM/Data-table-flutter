@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'empl_widget.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Drawer Demo'),
+          title: const Text('Restaurant Pacheco y Compañia'),
         ),
         drawer: Drawer(
           child: ListView(
@@ -24,7 +25,7 @@ class MainApp extends StatelessWidget {
                   color: Colors.blue,
                 ),
                 child: Text(
-                  'Drawer Header',
+                  'Dashboard',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 24,
@@ -32,20 +33,21 @@ class MainApp extends StatelessWidget {
                 ),
               ),
               ListTile(
-                leading: Icon(Icons.message),
-                title: Text('Messages'),
+                leading: Icon(Icons.supervisor_account),
+                title: Text('Empleados'),
               ),
               ListTile(
-                leading: Icon(Icons.account_circle),
-                title: Text('Profile'),
+                leading: Icon(Icons.book),
+                title: Text('Menu'),
               ),
               ListTile(
-                leading: Icon(Icons.settings),
-                title: Text('Settings'),
+                leading: Icon(Icons.shopping_basket),
+                title: Text('Despensa'),
               ),
             ],
           ),
         ),
+        body: const DataTable2SimpleDemo(),
       ),
     );
   }
