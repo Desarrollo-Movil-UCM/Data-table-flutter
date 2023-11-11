@@ -23,7 +23,7 @@ El diseño de la interfaz se basa en la simplicidad y la facilidad de uso. Se ut
 ### Maquetas
 
 Se adjuntan maquetas para representar la estructura visual del proyecto.
-![Maquetas de diseño](assets\image.png)
+![Maquetas de diseño](https://github.com/Desarrollo-Movil-UCM/Data-table-flutter/blob/dev/assets/image.png)
 
 ## Implementación
 
