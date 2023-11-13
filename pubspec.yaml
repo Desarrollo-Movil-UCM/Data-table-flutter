@@ -22,3 +22,4 @@ flutter:
   assets:
     - assets/listado_ingredientes.json
     - assets/empleados.json
+    - assets/menu.json

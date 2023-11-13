@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
-/// Example without a datasource
-
 class EmpleadosTable extends StatefulWidget {
   const EmpleadosTable({Key? key}) : super(key: key);
 
