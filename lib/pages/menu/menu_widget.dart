@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
-class EmpleadosTable extends StatefulWidget {
-  const EmpleadosTable({Key? key}) : super(key: key);
+class MenuTable extends StatefulWidget {
+  const MenuTable({Key? key}) : super(key: key);
 
   @override
-  _EmpleadosTableState createState() => _EmpleadosTableState();
+  _MenuTableState createState() => _MenuTableState();
 }
 
-class _EmpleadosTableState extends State<EmpleadosTable> {
+class _MenuTableState extends State<MenuTable> {
   List<dynamic> empleados = []; // Lista para almacenar los empleados
 
   // Método para cargar y parsear el JSON desde assets
