@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
             style: TextStyle(fontSize: 24),
           )),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -34,7 +34,7 @@ class Home extends StatelessWidget {
                 color: Colors.blue[700],
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Center(
+              child: const Center(
                 child: Text('Grafico 1'),
               ),
             ),
@@ -45,7 +45,7 @@ class Home extends StatelessWidget {
                   color: Colors.blue[700],
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(
+                child: const Center(
                   child: Text('Grafico 2'),
                 ))
           ],

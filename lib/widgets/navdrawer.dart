@@ -1,3 +1,4 @@
+import 'package:data_table_flutter/pages/menu/menu_page.dart';
 import 'package:flutter/material.dart';
 import '../pages/empleados/empleados_page.dart';
 import '../pages/despensa/despensa_page.dart';
@@ -38,15 +39,16 @@ class NavDrawer extends StatelessWidget {
               leading: const Icon(Icons.book),
               title: const Text('Menu'),
               onTap: () {
-                // Navegar a la página de empleados
-                Navigator.pop(context);
+                // Navegar a la página de menu
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => MenuPage()));
               },
             ),
             ListTile(
               leading: const Icon(Icons.shopping_basket),
               title: const Text('Despensa'),
               onTap: () {
-                // Navegar a la página de empleados
+                // Navegar a la página de despensa
                 Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => DespensaPage()));
               },
