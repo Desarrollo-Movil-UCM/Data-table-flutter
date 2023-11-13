@@ -12,7 +12,7 @@ class MenuPage extends StatelessWidget {
         child: const Icon(Icons.add),
         onPressed: () {},
       ),
-      body: const EmpleadosTable(),
+      body: const MenuTable(),
     );
   }
 }
