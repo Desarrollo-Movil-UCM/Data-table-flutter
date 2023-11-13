@@ -35,6 +35,9 @@ class _EmpleadosTableState extends State<EmpleadosTable> {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: DataTable2(
+        headingRowColor:
+            MaterialStateColor.resolveWith((states) => Colors.grey[850]!),
+        headingTextStyle: const TextStyle(color: Colors.white),
         columnSpacing: 18,
         horizontalMargin: 12,
         minWidth: 900,
