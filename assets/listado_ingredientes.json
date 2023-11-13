@@ -1,0 +1,124 @@
+{
+  "despensa": [
+      {
+        "id": "1",
+        "nombre": "Azucar",
+        "grupo": "Endulzantes",
+        "unidades_disponibles": "800",
+        "medicion": "gramos",
+        "costoPorUnidad": "300"
+      },
+      {
+        "id": "2",
+        "nombre": "Huevos",
+        "grupo": "Proteínas",
+        "unidades_disponibles": "30",
+        "medicion": "unidades",
+        "costoPorUnidad": "800"
+      },
+      {
+        "id": "3",
+        "nombre": "Leche",
+        "grupo": "Lacteos",
+        "unidades_disponibles": "500",
+        "medicion": "mililitros",
+        "costoPorUnidad": "400"
+      },
+      {
+        "id": "4",
+        "nombre": "Aceite",
+        "grupo": "Grasas",
+        "unidades_disponibles": "300",
+        "medicion": "mililitros",
+        "costoPorUnidad": "600"
+      },
+      {
+        "id": "5",
+        "nombre": "Oregano",
+        "grupo": "Condimentos",
+        "unidades_disponibles": "600",
+        "medicion": "gramos",
+        "costoPorUnidad": "400"
+      },
+      {
+        "id": "6",
+        "nombre": "Sal",
+        "grupo": "Condimentos",
+        "unidades_disponibles": "200",
+        "medicion": "gramos",
+        "costoPorUnidad": "200"
+      },
+      {
+        "id": "7",
+        "nombre": "Tomate",
+        "grupo": "Vegetales",
+        "unidades_disponibles": "150",
+        "medicion": "unidades",
+        "costoPorUnidad": "700"
+      },
+      {
+        "id": "8",
+        "nombre": "Cebolla",
+        "grupo": "Vegetales",
+        "unidades_disponibles": "120",
+        "medicion": "unidades",
+        "costoPorUnidad": "500"
+      },
+      {
+        "id": "9",
+        "nombre": "Pollo",
+        "grupo": "Proteínas",
+        "unidades_disponibles": "50",
+        "medicion": "gramos",
+        "costoPorUnidad": "1200"
+      },
+      {
+        "id": "10",
+        "nombre": "Ajo",
+        "grupo": "Condimentos",
+        "unidades_disponibles": "80",
+        "medicion": "gramos",
+        "costoPorUnidad": "300"
+      },
+      {
+        "id": "11",
+        "nombre": "Harina",
+        "grupo": "Cereales",
+        "unidades_disponibles": "20",
+        "medicion": "kilos",
+        "costoPorUnidad": "1500"
+      },
+      {
+        "id": "12",
+        "nombre": "Spaghetti Fetuccini",
+        "grupo": "Pastas",
+        "unidades_disponibles": "3",
+        "medicion": "kilos",
+        "costoPorUnidad": "800"
+      },
+      {
+        "id": "13",
+        "nombre": "Papa",
+        "grupo": "Tuberculos",
+        "unidades_disponibles": "12",
+        "medicion": "kilos",
+        "costoPorUnidad": "900"
+      },
+      {
+        "id": "14",
+        "nombre": "Manzana",
+        "grupo": "Frutas",
+        "unidades_disponibles": "4",
+        "medicion": "kilos",
+        "costoPorUnidad": "1700"
+      },
+      {
+        "id": "15",
+        "nombre": "Arroz",
+        "grupo": "Cereales",
+        "unidades_disponibles": "700",
+        "medicion": "gramos",
+        "costoPorUnidad": "1400"
+      }
+  ]
+}

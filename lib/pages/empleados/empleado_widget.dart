@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
-/// Example without a datasource
-
 class EmpleadosTable extends StatefulWidget {
   const EmpleadosTable({Key? key}) : super(key: key);
 
@@ -17,10 +15,10 @@ class _EmpleadosTableState extends State<EmpleadosTable> {
 
   // Método para cargar y parsear el JSON desde assets
   Future<void> cargarEmpleados() async {
-    final String jsonExample =
+    final String jsonData =
         await rootBundle.loadString('assets/empleados.json');
 
-    final data = json.decode(jsonExample);
+    final data = json.decode(jsonData);
     setState(() {
       empleados = data['empleados'];
     });
@@ -37,6 +35,9 @@ class _EmpleadosTableState extends State<EmpleadosTable> {
     return Padding(
       padding: const EdgeInsets.all(16),
       child: DataTable2(
+        headingRowColor:
+            MaterialStateColor.resolveWith((states) => Colors.grey[850]!),
+        headingTextStyle: const TextStyle(color: Colors.white),
         columnSpacing: 18,
         horizontalMargin: 12,
         minWidth: 900,

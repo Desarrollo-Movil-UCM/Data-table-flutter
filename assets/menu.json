@@ -3,50 +3,71 @@
         {
             "id": 1,
             "nombre": "Spaghetti Bolognese",
-            "precio (USD)": 10,
+            "precio (clp)": 10000,
             "personas": 1,
             "tiempo_preparacion": "25 minutos",
             "categoria": "Pasta",
-            "ingredientes": ["Spaghetti", "Carne molida", "Tomate", "Cebolla", "Ajo"]
+            "ingredientes": [
+                "Spaghetti",
+                "Carne molida",
+                "Tomate",
+                "Cebolla",
+                "Ajo"
+            ]
         },
         {
             "id": 2,
             "nombre": "Pollo a la Parrilla",
-            "precio (USD)": 15,
+            "precio (clp)": 15000,
             "personas": 1,
             "tiempo_preparacion": "30 minutos",
             "categoria": "Carnes",
-            "ingredientes": ["Pollo"]
+            "ingredientes": [
+                "Pollo"
+            ]
         },
         {
             "id": 3,
             "nombre": "Ensalada de Pollo Caesar",
-            "precio (USD)": 8,
+            "precio (clp)": 8000,
             "personas": 1,
             "tiempo_preparacion": "15 minutos",
             "categoria": "Ensaladas",
-            "ingredientes": ["Lechuga", "Pollo a la parrilla", "Crutones", "Aderezo Caesar"]
+            "ingredientes": [
+                "Lechuga",
+                "Pollo a la parrilla",
+                "Crutones",
+                "Aderezo Caesar"
+            ]
         },
         {
             "id": 4,
             "nombre": "Sushi Nigiri Variado",
-            "precio (USD)": 22,
+            "precio (clp)": 22000,
             "personas": 2,
             "tiempo_preparacion": "40 minutos",
             "categoria": "Sushi",
-            "ingredientes": ["Arroz", "Pescado fresco", "Alga nori", "Wasabi", "Salsa de soja"]
+            "ingredientes": [
+                "Arroz",
+                "Pescado fresco",
+                "Alga nori",
+                "Wasabi",
+                "Salsa de soja"
+            ]
         },
         {
             "id": 5,
             "nombre": "Pizza Pepperoni",
-            "precio (USD)": 12,
+            "precio (clp)": 12000,
             "personas": 2,
             "tiempo_preparacion": "20 minutos",
             "categoria": "Pizza",
-            "ingredientes": ["Mozzarella", "Pepperoni", "Tomate", "Masa de pizza"]
+            "ingredientes": [
+                "Mozzarella",
+                "Pepperoni",
+                "Tomate",
+                "Masa de pizza"
+            ]
         }
     ]
-    
-    
 }
-  
