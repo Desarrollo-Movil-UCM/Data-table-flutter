@@ -154,7 +154,7 @@ Luego, ejecuta `flutter pub get` en tu terminal para descargar las dependencias.
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://tu-repositorio.git
+   git clone https://github.com/Desarrollo-Movil-UCM/Data-table-flutter
    ```
 
 2. **Navegar al Directorio del Proyecto:**

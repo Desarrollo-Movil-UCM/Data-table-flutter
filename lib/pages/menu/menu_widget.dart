@@ -11,7 +11,7 @@ class MenuTable extends StatefulWidget {
 }
 
 class _MenuTableState extends State<MenuTable> {
-  List<dynamic> empleados = []; // Lista para almacenar los empleados
+  List<dynamic> menuList = []; // Lista para almacenar los empleados
 
   // Método para cargar y parsear el JSON desde assets
   Future<void> cargarEmpleados() async {
@@ -19,7 +19,7 @@ class _MenuTableState extends State<MenuTable> {
 
     final data = json.decode(jsonData);
     setState(() {
-      empleados = data['menu'];
+      menuList = data['menu'];
     });
   }
 
@@ -51,18 +51,18 @@ class _MenuTableState extends State<MenuTable> {
           DataColumn2(label: Text('Ingredientes'), size: ColumnSize.L),
         ],
         rows: List<DataRow>.generate(
-          empleados.length,
+          menuList.length,
           (index) => DataRow(
             cells: [
-              DataCell(Text(empleados[index]['id'].toString())),
-              DataCell(Text(empleados[index]['nombre'])),
-              DataCell(Text('\$${empleados[index]['precio (clp)']}')),
-              DataCell(Text(empleados[index]['personas'].toString())),
-              DataCell(Text(empleados[index]['tiempo_preparacion'])),
-              DataCell(Text(empleados[index]['categoria'])),
-              DataCell(Text(empleados[index]['ingredientes'] is List
-                  ? (empleados[index]['ingredientes'] as List).join(", ")
-                  : empleados[index]['ingredientes'].toString())),
+              DataCell(Text(menuList[index]['id'].toString())),
+              DataCell(Text(menuList[index]['nombre'])),
+              DataCell(Text('\$${menuList[index]['precio (clp)']}')),
+              DataCell(Text(menuList[index]['personas'].toString())),
+              DataCell(Text(menuList[index]['tiempo_preparacion'])),
+              DataCell(Text(menuList[index]['categoria'])),
+              DataCell(Text(menuList[index]['ingredientes'] is List
+                  ? (menuList[index]['ingredientes'] as List).join(", ")
+                  : menuList[index]['ingredientes'].toString())),
             ],
           ),
         ),
